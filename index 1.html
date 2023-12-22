@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codigo Enigma</title>
+    <link rel="stylesheet" href="./css.css">
+    <link rel="icon" href="https://www.lausina.com.ar/wp-content/uploads/2017/07/criptograma-reloj.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="./script.js"></script>
+</head>
+<body onload="contadorCaracteres()">
+  
+    <header>
+        <h1> Codigo enigma </h1>  
+    <nav >
+        <a  id="codigo" href="https://www.youtube.com/watch?v=IYsrI15PNUI" target="_blank"class="nav-link">Que es un codigo enigma? - </a>
+        <a  id ="codigo"href="https://historia.nationalgeographic.com.es/a/alan-turing-arma-secreta-aliados_16352"  target="_blank" class="nav-link">Quien fue su creador? - </a>
+        <a  id ="codigo"href="https://www.shutterstock.com/es/search/enigma-code" target="_blank"  class="nav-link"> Fotos e imagenes </a>
+    </nav>
+    </header>
+    <section>
+        <label id="mensaje">Mensaje secreto:</label>
+        <input type="text" id="mensaje">
+        <div class="col">
+         <div id="textvista">1</div>
+        </div>
+        <label id="clave">Clave secreta:</label>
+        <input id="offset" type="number" min="-100" max="100" placeholder="Ingresa tu clave secreta aquí" name="offset" step="1">
+        
+    </section>
+</header>
+<input type="text" id="mensaje2">
+<main>
+  <section class="container">
+    <div class="btnGroup">
+      <button class="cifrado"  type="button" id="cifrar">
+        <i class="fas fa-lock"></i> Cifrar
+      </button>
+      <button class="decifrado"  type="button"id="decifrar">
+        <i class="fas fa-lock-open"></i> Descifrar
+      </button>
+    </div>
+    <label id="resultado">Resultado:</label>
+  </section>
+</main> 
+<footer>
+  <div>
+  <p>Copyright &copy;2023 Las creadoras comparten licencia creativa</p>
+  <p>Grupo Grace Hopper</p>   
+</div>
+</footer>
+    
+</body>
+ 
+</html>
